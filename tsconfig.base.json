@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "paths": {
+      "@lms/db": ["./packages/db/src/index.ts"],
+      "@lms/db/*": ["./packages/db/src/*"],
+      "@lms/types": ["./packages/types/src/index.ts"],
+      "@lms/types/*": ["./packages/types/src/*"]
+    }
+  }
+}
+
+
